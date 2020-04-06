@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: FaceRecS3
+    
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://ec2-3-132-216-55.us-east-2.compute.amazonaws.com:8761/eureka
+server:
+  port: 8090
+  
+    
+    
